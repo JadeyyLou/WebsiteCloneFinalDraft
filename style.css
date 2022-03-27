@@ -13,7 +13,7 @@ body{
 
 main{
 	/* border:1px solid red; */
-    display:inline-flex;
+    display:flex;
 	justify-content: center;
 	align-items: space-around;
 }
@@ -51,6 +51,7 @@ main{
     align-items: center;
 	justify-content: center;
 	height:100%;
+	width:80%;
 }
 
 .login2{
@@ -105,15 +106,12 @@ button{
 	align-items: center;
 	justify-content: space-around;
 	padding-top:20px;
-	
-
-	
-		}
+}
 		.fblogo img:nth-child(1){
 			max-width: 5%;
 			max-height: 5% ;
 			padding-right:2px;
-			padding-left:90px;
+			padding-left:28%;
 			border-radius:3px ;
 		}
 		.login3 p:nth-child(1){
@@ -133,7 +131,7 @@ button{
 .signup{
 	border: 1px solid rgb(128, 128, 128,0.3);
 	height:18%;
-	width:99.5%;
+	width:80%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
